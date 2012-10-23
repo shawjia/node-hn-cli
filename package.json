@@ -31,6 +31,9 @@
   "scripts": {
     "test": "grunt test"
   },
+  "bin": {
+    "hn": "bin/hn"
+  },
   "devDependencies": {
     "grunt": "~0.3.17"
   },
