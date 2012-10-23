@@ -1,0 +1,35 @@
+{
+  "name": "hn-cli",
+  "description": "Hacker News Cli",
+  "version": "0.0.1",
+  "homepage": "https://github.com/shawjia/node-hn-cli",
+  "author": {
+    "name": "shawjia",
+    "email": "shawjia@gmail.com",
+    "url": "http://shawjia.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shawjia/node-hn-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shawjia/node-hn-cli/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shawjia/node-hn-cli/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/hn-cli",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": []
+}
