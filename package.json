@@ -26,6 +26,7 @@
     "node": ">= 0.6.0"
   },
   "dependencies": {
+    "colors": "latest",
     "hn.js": "latest"
   },
   "scripts": {

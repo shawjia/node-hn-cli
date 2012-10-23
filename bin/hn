@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-var hn = require('hn.js');
+var hn = require('hn.js'),
+  colors = require('colors');
+
 
 hn.home(function(err, items){
   if (err) return console.error(err);
@@ -8,6 +10,6 @@ hn.home(function(err, items){
   var i;
 
   for (i in items) {
-    console.log('#%s %s\n\t(%s)', items[i].id, items[i].title, items[i].url);
+    console.log('%s %s\n\t(%s)', items[i].id.toString().bold.red, items[i].title.yellow, items[i].url.grey);
   }
 });
