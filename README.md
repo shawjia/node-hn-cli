@@ -3,12 +3,9 @@
 Hacker News Cli
 
 ## Getting Started
-Install the module with: `npm install hn-cli`
+Install the module with: `npm install hn-cli -g`
 
-```javascript
-var hn_cli = require('hn-cli');
-hn_cli.awesome(); // "awesome"
-```
+In your terminal, simply run `hn`
 
 ## Documentation
 _(Coming soon)_
@@ -20,7 +17,7 @@ _(Coming soon)_
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/gruntjs/grunt).
 
 ## Release History
-_(Nothing yet)_
+* 2012/01/11 - v0.1.1 - Initial release.
 
 ## License
 Copyright (c) 2012 shawjia  

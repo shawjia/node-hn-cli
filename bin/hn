@@ -10,6 +10,6 @@ hn.home(function(err, items){
   var i;
 
   for (i in items) {
-    console.log('%s %s\n\t(%s)', items[i].id.toString().bold.red, items[i].title.yellow, items[i].url.grey);
+    console.log('%s %s\n\t(%s)', items[i].id.toString().bold.grey, items[i].title.yellow, items[i].url.grey);
   }
 });
