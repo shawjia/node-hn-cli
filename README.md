@@ -1,4 +1,4 @@
-# hn-cli
+# hn-cli [![Build Status](https://secure.travis-ci.org/shawjia/node-hn-cli.png)](http://travis-ci.org/shawjia/node-hn-cli)
 
 Hacker News Cli
 
